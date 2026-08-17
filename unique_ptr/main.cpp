@@ -8,8 +8,8 @@ struct Tracer {
 
 int main() {
     {
-        tynystl::unique_ptr<Tracer> up(new Tracer);
-        std::puts("inside scope");
+        tynystl::unique_ptr<Tracer> a(new Tracer);
+        tynystl::unique_ptr<Tracer> b = a;
     }
-    std::puts("after scope");
+    std::puts("End of main");
 }
