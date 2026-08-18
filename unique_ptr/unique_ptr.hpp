@@ -1,6 +1,7 @@
-#pragma
+#pragma once
 
 namespace tynystl {
+    
 template<class T>
 class unique_ptr {
 public:
