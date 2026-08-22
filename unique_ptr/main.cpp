@@ -8,8 +8,8 @@ struct Tracer {
 
 int main() {
     {
-        tynystl::unique_ptr<Tracer> a(new Tracer);
-        tynystl::unique_ptr<Tracer> b = a;
+        tinystl::unique_ptr<Tracer> a(new Tracer);
+        tinystl::unique_ptr<Tracer> b = a;
     }
     std::puts("End of main");
 }

@@ -1,6 +1,6 @@
 #pragma once
 
-namespace tynystl {
+namespace tinystl {
     
 template<class T>
 class unique_ptr {
